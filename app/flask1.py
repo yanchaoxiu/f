@@ -413,13 +413,13 @@
 # with app.test_request_context('/genius',method='GET'):
 #     print request
 
-from flask import Flask, session, url_for,request
-app = Flask(__name__)
-@app.route('/genius')
-def genius():
-    return 'nothing special'
-with app.test_request_context('/genius',method='GET'):
-    print app.dispatch_request()
+# from flask import Flask, session, url_for,request
+# app = Flask(__name__)
+# @app.route('/genius')
+# def genius():
+#     return 'nothing special'
+# with app.test_request_context('/genius',method='GET'):
+#     print app.dispatch_request()
 
 # # coding:utf-8
 # from flask import Flask
@@ -444,6 +444,277 @@ with app.test_request_context('/genius',method='GET'):
 # def teardown_appctx(e):
 #     print 'teardown application context'
 # app.run(debug=True)
+
+
+# # coding:utf-8
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# @app.route('/user/<uname>')
+# def show_user_profile(uname):
+#     return render_template_string('</h1>welcome,{{uname}}</h1>',uname=uname)
+# app.run(debug=True)
+
+
+# # coding:utf-8
+# from flask import Flask,render_template
+# app=Flask(__name__)
+# @app.route('/user/<username>')
+# def v_user(username):
+#     return render_template('user.html',username=username)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# tpl='name:{{name}} age:{{age}}'
+# print render_template_string(tpl,name='yanchaoxiu',age=24)
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# tpl='name:{{u["name"]}}name again:{{u.name}}'
+# print render_template_string(tpl,u={'name':'yanchaoxiu','age':24})
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# class User:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+# tpl='name:{{u.name}} name again:{{u["name"]}}'
+# print render_template_string(tpl,u=User('yan',24))
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# @app.route('/')
+# def v_index():
+#     tpl='welcome back,{{session.username}}'
+#     return render_template_string(tpl)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# @app.context_processor
+# def vendor_processor():
+#     return dict(vendor='hubwiz')
+#
+# @app.route('/')
+# def v_index():
+#     tpl='powered by {{vendor}}'
+#     return render_template_string(tpl)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# @app.context_processor
+# def utility_processor():
+#     def format_price(amount,currency=u'$'):
+#         return u'{0:2f}{1}'.format(amount,currency)
+#     return dict(format_price=format_price)
+
+# #有错 'NoneType' object has no attribute 'app'
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# tpl='{{name|title}}'
+# print render_template_string(tpl,name='jimi hendrix')
+# tpl='{{name|striptags|title}}'
+# print render_template_string(tpl,name='<h1>jimihendrix</h1>')
+# tpl='{{seq|join("-")}}'
+# print render_template_string(tpl,seq=[1,2,3])
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# @app.template_filter('reverse')
+# def reverse_filter(s):
+#     return s[::-1]
+# @app.route('/')
+# def index():
+#     return render_template_string('{{greeting|reverse}}',greeting='hello,jinja2')
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# @app.template_filter('reverse')
+# def reverse_filter(s):
+#     return s[::-1]
+# app.jinja_env.filters['reverse']=reverse_filter
+# app.run(debug=True)
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# tpl='''
+#     {%filter upper%}
+#     <p>Filter sections allow you to apply regular
+#     jinja2 filters on a block
+#     of template data.just wrap the code in the special filter section</p>
+#     {% endfilter %}
+#     '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# user={'id':123,'nickname':'haha<script>alert("xss'
+#                           'vulnerable!")</script>'}
+# tpl='</h1>homepage of {{nickname}}</h1>'
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,**user)
+# app.run(debug=True)
+
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# user={'id':123,'nickname':'<IAMKING>'}
+# tpl='<h1>homepage of {{nickname}}</h1>'
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,**user)
+# app.run(debug=True)
+
+
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# user={'id':123,'nickname':'<IAMKING>'}
+# tpl='''
+# {% autoescape true %}
+# <h1>homepage of <a href="/user/{{id}}">
+# {{nickname}}</a></h1>
+# {% endautoescape %}
+# '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,**user)
+# app.run(debug=True)
+
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# user={'id':123,'nickname':'<IAMKING1>'}
+# tpl='''
+# {% autoescape true %}
+# <h1>homepage of <a href="/user/{{id | safe}}">
+# {{nickname}}</a></h1>
+# {% endautoescape %}
+# '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,**user)
+# app.run(debug=True)
+
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# user={'id':123,'nickname':'<IAMKING>'}
+# tpl='''
+# <h1>homepage of <a href="/user/{{id}}">
+# {{nickname | e }}</a></h1>
+# '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,**user)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# data=[
+#     {'name':'john','age':20},
+#     {'name':'linda','age':22},
+#     {'name':'mary','age':30},
+#     {'name':'cook','age':40}
+#     ]
+# tpl='''
+#     <ul>
+#         {%for user in users%}
+#         <li>{{ user.name }}</li>
+#         {%endfor%}
+#     </ul>
+#     '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,users=data)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# data=[
+#     {'name':'john','age':20},
+#     {'name':'linda','age':22},
+#     {'name':'mary','age':30},
+#     {'name':'cook','age':40}
+#     ]
+# tpl='''
+#     <ul>
+#         {%for user in users if user.age>25%}
+#         <li>{{ user.name }}</li>
+#         {%endfor%}
+#     </ul>
+#     '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,users=data)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# data=[
+#     {'name':'john','age':20},
+#     {'name':'linda','age':22},
+#     {'name':'mary','age':30},
+#     {'name':'cook','age':40}
+#     ]
+# tpl='''
+#     <ul>
+#         {%for user in users if user.age>50%}
+#         <li>{{ user.name }}</li>
+#         {%else%}
+#         <li>{{not found}}</li>
+#         {%endfor%}
+#     </ul>
+#     '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,users=data)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
+# data={'name':'obama','age':63}
+# tpl='''
+#     {%if user.age>=18%}
+#     <div>some adult content...</div>
+#     {%endif%}
+#     '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl,user=data)
+# app.run(debug=True)
+
+
+from flask import Flask,render_template_string
+import os
+import sqlalchemy
+app=Flask(__name__)
+basedir=os.path.abspath(os.path.dirname(__file__))
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///'+os.path.join(basedir,'data.sqlite')
+app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
+db=sqlalchemy
+
 
 # # coding:utf-8
 # from flask import render_template
