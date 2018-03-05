@@ -715,7 +715,13 @@ app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///'+os.path.join(basedir,'data.sq
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
 db=sqlalchemy
 
-
+class User(db.Model):
+    __tablename__='ezuser'
+    id=db.Column(db.Integer,primary_key=True)
+    name=db.Column(db.String(64),unique=True,index=True)
+    age=db.Column(db.Integer)
+db.create_all()
+db.drop_all()
 # # coding:utf-8
 # from flask import render_template
 # from app import app
