@@ -706,28 +706,51 @@
 # app.run(debug=True)
 
 
-from flask import Flask,render_template_string
-import os
-import sqlalchemy
-app=Flask(__name__)
-basedir=os.path.abspath(os.path.dirname(__file__))
-app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///'+os.path.join(basedir,'data.sqlite')
-app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
-db=sqlalchemy
+# from flask import Flask,render_template_string
+# import os
+# from app import db
+# app=Flask(__name__)
+# basedir=os.path.abspath(os.path.dirname(__file__))
+# app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///'+os.path.join(basedir,'data.sqlite')
+# app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
+# class User(db.Model):
+#     __tablename__='ezuser'
+#     id=db.Column(db.Integer,primary_key=True)
+#     name=db.Column(db.String(64),unique=True,index=True)
+#     age=db.Column(db.Integer)
+# db.create_all()
+# db.drop_all()
 
-class User(db.Model):
-    __tablename__='ezuser'
-    id=db.Column(db.Integer,primary_key=True)
-    name=db.Column(db.String(64),unique=True,index=True)
-    age=db.Column(db.Integer)
-db.create_all()
-db.drop_all()
-# # coding:utf-8
-# from flask import render_template
-# from app import app
-# @app.route('/')
-# @app.route('/index')
-# def index():
-#     user={'nickname':'Miguel'}
-#     return render_template("index.html",title='Home',user=user)
-# app.run(debug=True)
+# 有错
+from app import db
+import models
+db1=db.session
+u=models.User(nickname='xiu',email='yanchaoxiu@163.com')
+db.add(u)
+db.session.commit()
+u=models.User(nickname='xiu1',email='yanchaoxiu@163.com')
+db.session.add(u)
+db.session.commit()
+users=models.User.query.all()
+print users
+for u in users:
+    print u.id,u.nickname
+
+u=models.User.query.get(1)
+print u
+
+import datetime
+u=models.User.query.get(1)
+p=models.Post(body='my first post',timesstamp=datetime.datetime.utcnow(),author=u)
+db.session.add(p)
+db.session.commit()
+
+users=models.User.query.all()
+for u in users:
+    db.session.delete(u)
+
+posts=models.Post.all()
+for p in posts:
+    db.session.delete(p)
+
+db.session.commit()
