@@ -705,52 +705,192 @@
 #     return render_template_string(tpl,user=data)
 # app.run(debug=True)
 
+# 访问数据库
 
-# from flask import Flask,render_template_string
+# import sqlite3
+# conn=sqlite3.connect('D://sqlite//testDB.db')
+# print "opened database successfully"
+# c = conn.cursor()
+# c.execute('''
+# CREATE TABLE COMPANY1
+#        (ID INT PRIMARY KEY     NOT NULL,
+#        NAME           TEXT    NOT NULL,
+#        AGE            INT     NOT NULL,
+#        ADDRESS        CHAR(50),
+#        SALARY         REAL);
+#        ''')
+# print "Table created successfully"
+# conn.commit()
+# conn.close()
+
+# import sqlite3
+# conn = sqlite3.connect('D://sqlite//testDB.db')
+# c = conn.cursor()
+# print "Opened database successfully"
+# c.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)VALUES (11, 'Paul', 32, 'California1', 20000.00 )");
+# c.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)VALUES (12, 'Allen', 25, 'Texas1', 15000.00 )");
+# c.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)VALUES (13, 'Teddy', 23, 'Norway1', 20000.00 )");
+# c.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)VALUES (14, 'Mark', 25, 'Rich-Mond1 ', 65000.00 )");
+# conn.commit()
+# print "Records created successfully"
+# conn.close()
+
+# import sqlite3
+# conn = sqlite3.connect('D://sqlite//testDB.db')
+# c = conn.cursor()
+# print "Opened database successfully"
+# cursor = c.execute("SELECT id,name,address,salary  from COMPANY")
+# for row in cursor:
+#    print "ID = ", row[0]
+#    print "NAME = ", row[1]
+#    print "ADDRESS = ", row[2]
+#    print "SALARY = ", row[3], "\n"
+# print "Operation done successfully"
+# conn.close()
+
+
+# # sqlalchemy 连接 sqlite
+# from flask import Flask
 # import os
-# from app import db
+# from flask_sqlalchemy import SQLAlchemy
 # app=Flask(__name__)
-# basedir=os.path.abspath(os.path.dirname(__file__))
-# app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///'+os.path.join(basedir,'data.sqlite')
+# app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///D:/sqlite/testDB.db'
 # app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+# db=SQLAlchemy(app)
 # class User(db.Model):
 #     __tablename__='ezuser'
 #     id=db.Column(db.Integer,primary_key=True)
 #     name=db.Column(db.String(64),unique=True,index=True)
 #     age=db.Column(db.Integer)
 # db.create_all()
-# db.drop_all()
 
-# 有错
-from app import db
-import models
-db1=db.session
-u=models.User(nickname='xiu',email='yanchaoxiu@163.com')
-db.add(u)
-db.session.commit()
-u=models.User(nickname='xiu1',email='yanchaoxiu@163.com')
-db.session.add(u)
-db.session.commit()
-users=models.User.query.all()
-print users
-for u in users:
-    print u.id,u.nickname
+# 下面几行不太懂，还不通
+# # users=User.query.all()
+# # user=User.query.filter_by(id=1).first()
+# # # db.session.delete(user).db.session.commit()
+# # #
+# # user.age=21
+# # db.session.add(user)
+# # db.session.commit()
 
-u=models.User.query.get(1)
-print u
 
-import datetime
-u=models.User.query.get(1)
-p=models.Post(body='my first post',timesstamp=datetime.datetime.utcnow(),author=u)
-db.session.add(p)
-db.session.commit()
 
-users=models.User.query.all()
-for u in users:
-    db.session.delete(u)
+# from flask import Flask,Blueprint
+# ezbp=Blueprint("ezbp",__name__)
+# from app import app
+# # http://127.0.0.1:5000/ezbp/
+# @ezbp.route('/')
+# def ezbp_index():
+#     return 'welcome to my blueprint'
+# # http://127.0.0.1:5000/ezbp/page1
+# @ezbp.route('/page1')
+# def page1():
+#     return 'blueprint page1'
+# app.register_blueprint(ezbp,url_prefix='/ezbp')
+# app.run(debug=True)
 
-posts=models.Post.all()
-for p in posts:
-    db.session.delete(p)
 
-db.session.commit()
+# from flask import Flask,Blueprint
+# admin=Blueprint("admin",__name__,static_folder='ezstatic')
+# from app import app
+# @admin.route('/')
+# def ezbp_index():
+#     return 'welcome to my blueprint'
+# app.register_blueprint(admin,url_prefix='/admin')
+# app.run(debug=True)
+
+# from flask import Flask,Blueprint
+# admin=Blueprint("admin",__name__,static_folder='ezstatic',static_url_path='/lib')
+# from app import app
+# @admin.route('/')
+# def ezbp_index():
+#     return 'welcome to my blueprint'
+# app.register_blueprint(admin,url_prefix='/admin')
+# app.run(debug=True)
+
+
+# from app import app
+# @app.route('/')
+# @app.route('/index')
+# def index():
+#     user={'nickname':'Miguel'}
+#     return '''
+#     <html>
+#     <head>
+#     <title>home page</title>
+#     </head>
+#     <body>
+#     <h1>hello,'''+user['nickname']+'''</h1>
+#     </body>
+#     </html>
+#     '''
+# app.run(debug=True)
+
+# from flask import Flask,flash,redirect,render_template
+# from app import app
+# app=Flask(__name__)
+# app.config.from_object('config')
+# from forms import LoginForm
+# @app.route('/login',methods=['GET','POST'])
+# def login():
+#     form=LoginForm()
+#     if form.validate_on_submit():
+#         flash('login requested for OpenID="'+
+#               form.openid.data+'",remember_me='+
+#               str(form.remember_me.data))
+#         return redirect('/index')
+#     return render_template('login1.html',title='Sign In',form=form,providers=app.config['OPENID_PROVIDERS'])
+# app.run(debug=True)
+
+
+from flask import Flask,flash,redirect,render_template
+from app import app
+import config
+from forms import LoginForm
+@app.route('/login',methods=['GET','POST'])
+def login():
+    form=LoginForm()
+    if form.validate_on_submit():
+        flash('login requested for OpenID="'+
+              form.openid.data+'",remember_me='+
+              str(form.remember_me.data))
+        return redirect('/index')
+    return render_template('login2.html',title='Sign In',form=form,providers=app.config['OPENID_PROVIDERS'])
+app.run(debug=True)
+
+
+# # 有错
+# from app import db
+# import models
+# db1=db.session
+# u=models.User(nickname='xiu',email='yanchaoxiu@163.com')
+# db.add(u)
+# db.session.commit()
+# u=models.User(nickname='xiu1',email='yanchaoxiu@163.com')
+# db.session.add(u)
+# db.session.commit()
+# users=models.User.query.all()
+# print users
+# for u in users:
+#     print u.id,u.nickname
+#
+# u=models.User.query.get(1)
+# print u
+#
+# import datetime
+# u=models.User.query.get(1)
+# p=models.Post(body='my first post',timesstamp=datetime.datetime.utcnow(),author=u)
+# db.session.add(p)
+# db.session.commit()
+#
+# users=models.User.query.all()
+# for u in users:
+#     db.session.delete(u)
+#
+# posts=models.Post.all()
+# for p in posts:
+#     db.session.delete(p)
+#
+# db.session.commit()
+

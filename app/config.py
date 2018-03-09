@@ -4,10 +4,10 @@ SERVER_KEY='you will-never-guess'
 
 OPENID_PROVIDERS=[
     {'name':'Google','url':'https://www.goole.com.account/o8/id'},
-    {'name':'Yahoo','url':'https://www.goole.com.account/o8/id'},
-    {'name':'AOL','url':'https://www.goole.com.account/o8/id'},
-    {'name':'Flickr','url':'https://www.goole.com.account/o8/id'},
-    {'name':'MyOpenID','url':'https://www.goole.com.account/o8/id'},
+    {'name':'Yahoo','url':'https://www.yahoo.com'},
+    {'name':'AOL','url':'https://www.aol.com/'},
+    {'name':'Flickr','url':'https://flickr.tuchong.com/'},
+    {'name':'MyOpenID','url':'https://www.tuicool.com/articles/rm6ryuu'},
 ]
 
 
