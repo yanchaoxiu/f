@@ -844,53 +844,57 @@
 # app.run(debug=True)
 
 
-from flask import Flask,flash,redirect,render_template
-from app import app
-import config
-from forms import LoginForm
-@app.route('/login',methods=['GET','POST'])
-def login():
-    form=LoginForm()
-    if form.validate_on_submit():
-        flash('login requested for OpenID="'+
-              form.openid.data+'",remember_me='+
-              str(form.remember_me.data))
-        return redirect('/index')
-    return render_template('login2.html',title='Sign In',form=form,providers=app.config['OPENID_PROVIDERS'])
-app.run(debug=True)
 
-
-# # 有错
 # from app import db
 # import models
-# db1=db.session
-# u=models.User(nickname='xiu',email='yanchaoxiu@163.com')
-# db.add(u)
+# db.create_all()
+# u=models.User(nickname='john',email='john@email.com')
+# db.session.add(u)
 # db.session.commit()
-# u=models.User(nickname='xiu1',email='yanchaoxiu@163.com')
+# u=models.User(nickname='susan',email='susan@email.com')
 # db.session.add(u)
 # db.session.commit()
 # users=models.User.query.all()
 # print users
 # for u in users:
 #     print u.id,u.nickname
-#
+
 # u=models.User.query.get(1)
 # print u
-#
+
+
+# from app import db
+# import models
 # import datetime
 # u=models.User.query.get(1)
-# p=models.Post(body='my first post',timesstamp=datetime.datetime.utcnow(),author=u)
+# p=models.Post(body='my first post',timestamp=datetime.datetime.utcnow(),author=u)
 # db.session.add(p)
 # db.session.commit()
+
+# u=models.User.query.get(1)
+# print u
+# posts=u.posts.all()
+# print posts
 #
-# users=models.User.query.all()
-# for u in users:
-#     db.session.delete(u)
-#
-# posts=models.Post.all()
 # for p in posts:
-#     db.session.delete(p)
+#     print p.id,p.author.nickname,p.body
 #
-# db.session.commit()
+# u=models.User.query.get(2)
+# print u
+# print u.posts.all()
+#
+# print models.User.query.order_by('nickname desc').all()
+
+
+
+from app import db
+import models
+users=models.User.query.all()
+for u in users:
+    db.session.delete(u)
+posts=models.Post.query.all()
+for p in posts:
+    db.session.delete(p)
+db.session.commit()
+
 
