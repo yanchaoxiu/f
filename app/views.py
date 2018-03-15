@@ -232,47 +232,52 @@
 #         db.session.add(g.user)
 #         db.session.commit()
 
-from forms import LoginForm,EditForm
-from app import app,db
-from flask import g,flash,redirect,url_for,render_template
+# from forms import LoginForm,EditForm
+# from app import app,db
+# from flask import g,flash,redirect,url_for,render_template
+# from flask_login import login_required
+# @app.route('/edit',methods=['GET','POST'])
+# @login_required
+# def edit():
+#     form=EditForm
+#     if form.validate_on_submit():
+#         g.user.nickname=form.nickname.data
+#         g.user.about_me=form.about_me.data
+#         db.session.add(g.user)
+#         db.session.commit()
+#         flash('Your changes have been saved.')
+#         return redirect(url_for('edit'))
+#     else:
+#         form.nickname.data=g.user.nickname
+#         form.about_me.data=g.user.about_me
+#     return render_template('edit.html',form=form)
+
+
+# @app.errorhandler(404)
+# def internal_error(error):
+#     return render_template('404.html'),404
+# @app.errorhandler(500)
+# def internal_error(error):
+#     return render_template('500.html'),500
+# from models import User
+
+# #you wen ti
+# if user is None
+#     nickname=resp.nickname
+#     if nickname is None or nickname==" ":
+#         nickname=resp.email.split('@')[0]
+#     nickname=User.make_unique_nickname(nickname)
+#     user=User(nickname=nickname,email=resp.email)
+#     db.session.add(user)
+#     db.session.commit()
+
+from app import app
+from forms import EditForm
 from flask_login import login_required
 @app.route('/edit',methods=['GET','POST'])
 @login_required
 def edit():
-    form=EditForm
-    if form.validate_on_submit():
-        g.user.nickname=form.nickname.data
-        g.user.about_me=form.about_me.data
-        db.session.add(g.user)
-        db.session.commit()
-        flash('Your changes have been saved.')
-        return redirect(url_for('edit'))
-    else:
-        form.nickname.data=g.user.nickname
-        form.about_me.data=g.user.about_me
-    return render_template('edit.html',form=form)
-
-
-@app.errorhandler(404)
-def internal_error(error):
-    return render_template('404.html'),404
-@app.errorhandler(500)
-def internal_error(error):
-    return render_template('500.html'),500
-from models import User
-if user is None
-    nickname=resp.nickname
-    if nickname is None or nickname==" ":
-        nickname=resp.email.split('@')[0]
-    nickname=User.make_unique_nickname(nickname)
-    user=User(nickname=nickname,email=resp.email)
-    db.session.add(user)
-    db.session.commit()
-#
-# @app.route('/edit',methods=['GET','POST'])
-# @login_required
-# def edit():
-#     form=EditForm(g.user.nickname)
+    form=EditForm(g.user.nickname)
 
 # from flask import render_template,flash,redirect,session,url_for,request,g
 # from flask_login import login_user,logout_user,current_user,login_required
