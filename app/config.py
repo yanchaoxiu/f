@@ -26,3 +26,8 @@ MAIL_PASSWORD=None
 
 # administrator list
 ADMINS=['yanchaoxiu@163.com']
+
+# pagination
+POSTS_PER_PAGE = 3
+
+WHOOSH_BASE=os.path.join(basedir,'search.db')
