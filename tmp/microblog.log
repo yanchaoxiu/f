@@ -1,191 +1,979 @@
-2018-03-14 17:46:17,602 INFO: microblog startup [in D:/blog/app/app.py:42]
-2018-03-15 16:18:50,654 INFO: microblog startup [in D:/blog/app/app.py:42]
-2018-03-15 16:21:21,479 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:21:54,901 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:23:30,763 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:24:22,982 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:26:04,496 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:27:09,823 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:28:04,052 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:28:40,345 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:30:11,118 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:50:45,434 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:52:08,173 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:53:16,433 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:54:54,816 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:59:10,710 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 16:59:24,526 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:00:05,690 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:01:13,523 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:01:33,674 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:09:48,642 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:11:05,203 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:11:16,578 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:13:16,934 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:13:51,273 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:13:58,835 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:19:43,338 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:21:23,565 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:23:33,982 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:26:55,851 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:27:05,309 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:28:09,739 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:30:11,650 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:30:18,811 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:30:51,789 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-15 17:31:19,457 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:35:06,293 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:43:28,862 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:43:58,578 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:44:27,743 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:45:12,118 INFO: microblog startup [in D:/blog/app\app.py:42]
-2018-03-20 15:50:57,799 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:54:40,426 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:58:25,657 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 15:58:57,913 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:01:54,923 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:03:13,246 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:03:45,388 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:05:44,749 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:06:07,670 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:06:56,469 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:07:29,230 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:10:32,259 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:10:56,043 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-20 16:11:39,045 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:16:57,346 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:37:51,657 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:41:00,947 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:41:39,138 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:42:19,246 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:43:12,203 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 11:43:49,026 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 14:16:48,305 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 14:32:53,828 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-21 14:33:52,464 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:14:16,232 INFO: microblog startup [in D:/blog/app/app.py:42]
-2018-03-28 15:16:33,852 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:17:40,566 INFO: microblog startup [in D:/blog/app/app.py:42]
-2018-03-28 15:24:23,655 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:29:13,859 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:30:49,835 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:32:19,871 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:33:35,694 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:35:24,121 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:38:36,413 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:39:44,849 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:50:11,973 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:51:16,444 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:53:15,420 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:56:42,792 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:57:46,706 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:57:55,989 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 15:59:51,049 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:00:38,470 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:05:31,305 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:08:38,635 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:08:43,532 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:09:27,632 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:09:56,592 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:13:25,973 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:13:42,967 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:13:48,869 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:14:01,193 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:16:54,667 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:18:19,556 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:19:00,634 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:19:06,864 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:24:54,401 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:30:07,359 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:30:13,165 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:31:07,239 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:32:00,802 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:33:33,408 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:34:24,142 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:34:58,558 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:36:51,552 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:37:30,440 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:37:47,246 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:40:43,665 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:40:55,161 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:41:21,178 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:41:53,305 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:42:09,301 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:42:36,082 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:43:27,302 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:43:48,236 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:43:53,487 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:44:55,273 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:45:00,089 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:45:33,145 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:45:40,298 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:45:54,734 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:58:07,505 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:58:28,289 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:58:54,552 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:59:29,397 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:59:42,456 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 16:59:52,640 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:00:05,108 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:00:12,611 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:05:51,006 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:06:01,720 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:14:57,545 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:42:50,680 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:43:07,923 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:43:18,832 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:43:30,476 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-28 17:43:50,953 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 08:52:38,187 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 08:53:39,723 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 08:56:12,851 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 08:57:38,117 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:05:47,289 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:07:26,328 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:08:49,066 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:09:10,589 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:09:58,775 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:10:28,970 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:13:45,003 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:13:53,184 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:14:21,079 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:14:25,763 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:15:04,240 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:15:09,051 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:18:07,736 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:18:54,019 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:20:13,930 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:20:18,881 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:21:20,529 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:21:25,437 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:22:25,753 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:25:12,825 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:25:17,492 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:28:06,194 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:28:35,773 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:28:41,138 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:50:14,365 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:50:30,940 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:52:23,286 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:52:47,417 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:53:39,158 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 09:54:02,903 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:07:01,726 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:18:19,631 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:18:37,415 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:18:48,638 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:23:34,479 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:24:53,145 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:29:28,809 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:30:31,976 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:30:33,285 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:31:40,559 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:42:19,240 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 16:42:50,809 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 17:39:42,618 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-29 17:40:12,336 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-30 09:36:34,529 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-30 09:40:04,450 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-30 09:40:19,641 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-30 09:40:55,548 INFO: microblog startup [in D:\blog\app\app.py:42]
-2018-03-30 09:41:16,638 INFO: microblog startup [in D:\blog\app\app.py:42]
+
+2018-04-16 09:28:33,536 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 09:28:46,230 ERROR: Exception on /edit [POST] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 161, in edit
+    db.session.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\scoping.py", line 153, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 937, in commit
+    self.transaction.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 461, in commit
+    self._prepare_impl()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 441, in _prepare_impl
+    self.session.flush()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2237, in flush
+    self._flush(objects)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2363, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2327, in _flush
+    flush_context.execute()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 391, in execute
+    rec.execute(self)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 556, in execute
+    uow
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 177, in save_obj
+    mapper, table, update)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 768, in _emit_update_statements
+    execute(statement, multiparams)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: user.nickname [SQL: u'UPDATE user SET nickname=?, about_me=? WHERE user.id = ?'] [parameters: (u'dup', u'', 2)] (Background on this error at: http://sqlalche.me/e/gkpj)
+2018-04-16 09:30:48,456 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 09:30:56,147 ERROR: Exception on /edit [POST] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 161, in edit
+    db.session.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\scoping.py", line 153, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 937, in commit
+    self.transaction.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 461, in commit
+    self._prepare_impl()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 441, in _prepare_impl
+    self.session.flush()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2237, in flush
+    self._flush(objects)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2363, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2327, in _flush
+    flush_context.execute()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 391, in execute
+    rec.execute(self)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 556, in execute
+    uow
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 177, in save_obj
+    mapper, table, update)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 768, in _emit_update_statements
+    execute(statement, multiparams)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: user.nickname [SQL: u'UPDATE user SET nickname=?, about_me=? WHERE user.id = ?'] [parameters: (u'dup', u'', 2)] (Background on this error at: http://sqlalche.me/e/gkpj)
+2018-04-16 09:31:49,829 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 09:31:58,571 ERROR: Exception on /edit [POST] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 161, in edit
+    db.session.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\scoping.py", line 153, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 937, in commit
+    self.transaction.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 461, in commit
+    self._prepare_impl()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 441, in _prepare_impl
+    self.session.flush()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2237, in flush
+    self._flush(objects)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2363, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2327, in _flush
+    flush_context.execute()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 391, in execute
+    rec.execute(self)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 556, in execute
+    uow
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 177, in save_obj
+    mapper, table, update)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 768, in _emit_update_statements
+    execute(statement, multiparams)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: user.nickname [SQL: u'UPDATE user SET nickname=?, about_me=? WHERE user.id = ?'] [parameters: (u'dup', u'', 2)] (Background on this error at: http://sqlalche.me/e/gkpj)
+2018-04-16 09:51:38,621 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 09:51:50,489 ERROR: Exception on /edit [POST] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 161, in edit
+    db.session.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\scoping.py", line 153, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 937, in commit
+    self.transaction.commit()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 461, in commit
+    self._prepare_impl()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 441, in _prepare_impl
+    self.session.flush()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2237, in flush
+    self._flush(objects)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2363, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\session.py", line 2327, in _flush
+    flush_context.execute()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 391, in execute
+    rec.execute(self)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 556, in execute
+    uow
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 177, in save_obj
+    mapper, table, update)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\persistence.py", line 768, in _emit_update_statements
+    execute(statement, multiparams)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: user.nickname [SQL: u'UPDATE user SET nickname=?, about_me=? WHERE user.id = ?'] [parameters: (u'dup', u'', 2)] (Background on this error at: http://sqlalche.me/e/gkpj)
+2018-04-16 09:57:02,664 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 10:13:01,562 ERROR: Exception on /user/john [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 86, in before_request
+    if g.user.is_authenticated:
+  File "C:\Python27\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Python27\lib\site-packages\werkzeug\local.py", line 306, in _get_current_object
+    return self.__local()
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "C:\Python27\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "C:\Python27\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "D:\blog\app\views.py", line 80, in load_user
+    return User.query.get(int(id))
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 871, in get
+    ident, loading.load_on_ident)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 905, in _get_impl
+    return fallback_fn(self, key)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\loading.py", line 231, in load_on_ident
+    return q.one()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2837, in one
+    ret = self.one_or_none()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2807, in one_or_none
+    ret = list(self)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2878, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2901, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.nickname AS user_nickname, user.email AS user_email, user.about_me AS user_about_me, user.last_seen AS user_last_seen \nFROM user \nWHERE user.id = ?'] [parameters: (1,)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-04-16 10:13:09,229 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 86, in before_request
+    if g.user.is_authenticated:
+  File "C:\Python27\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Python27\lib\site-packages\werkzeug\local.py", line 306, in _get_current_object
+    return self.__local()
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "C:\Python27\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "C:\Python27\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "D:\blog\app\views.py", line 80, in load_user
+    return User.query.get(int(id))
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 871, in get
+    ident, loading.load_on_ident)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 905, in _get_impl
+    return fallback_fn(self, key)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\loading.py", line 231, in load_on_ident
+    return q.one()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2837, in one
+    ret = self.one_or_none()
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2807, in one_or_none
+    ret = list(self)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2878, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\orm\query.py", line 2901, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "C:\Python27\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "C:\Python27\lib\site-packages\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.nickname AS user_nickname, user.email AS user_email, user.about_me AS user_about_me, user.last_seen AS user_last_seen \nFROM user \nWHERE user.id = ?'] [parameters: (1,)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-04-16 12:52:49,605 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 14:32:17,621 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 14:40:23,388 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 15:11:30,954 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 15:57:27,812 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:07:47,819 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:07:54,459 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:09:19,253 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:09:40,582 ERROR: Exception on /index [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:04,048 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:06,128 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:13,900 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:15,926 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:41,829 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:10:48,582 ERROR: Exception on / [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:50,634 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:10:52,667 ERROR: Exception on / [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:11:09,897 ERROR: Exception on / [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:11:17,721 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 87, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-16 16:14:17,770 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:14:25,013 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\blog\app\views.py", line 128, in login
+    form=form)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\login.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 12, in top-level template code
+    {% if g.user.is_authenticated() %}
+TypeError: 'bool' object is not callable
+2018-04-16 16:19:39,684 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:19:49,624 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\blog\app\views.py", line 127, in login
+    form=form)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\login.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 12, in top-level template code
+    {% if g.user.is_authenticated() %}
+TypeError: 'bool' object is not callable
+2018-04-16 16:21:26,062 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:22:52,079 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:35:29,141 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:48:36,253 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 16:49:45,384 ERROR: Exception on /search_results/234 [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 16:49:50,993 ERROR: Exception on /search_results/234 [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 16:50:11,253 ERROR: Exception on /search_results/234 [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 16:50:44,608 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 17:00:27,035 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:00:29,111 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:00:33,964 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:00:39,729 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:00:47,273 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:00:50,966 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:01:11,229 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 241, in search_results
+    results = results)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Python27\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\blog\app\templates\search_results.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "D:\blog\app\templates\base.html", line 28, in top-level template code
+    {% block content %}
+  File "D:\blog\app\templates\search_results.html", line 7, in block "content"
+    {% include 'post.html' %}
+  File "D:\blog\app\templates\post.html", line 3, in top-level template code
+    <td><img src={{user.avatar('50')}}></td>
+  File "C:\Python27\lib\site-packages\jinja2\environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'user' is undefined
+2018-04-16 17:01:33,124 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 17:16:20,355 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 17:16:29,933 ERROR: Exception on /search_results/234 [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 238, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2018-04-16 17:20:32,673 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 17:20:43,099 ERROR: Exception on /search_results/post [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 238, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2018-04-16 17:24:16,780 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 17:24:26,075 ERROR: Exception on /search_results/234 [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\blog\app\views.py", line 238, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2018-04-16 17:24:53,131 INFO: microblog startup [in D:\blog\app\__init__.py:44]
+2018-04-16 17:26:17,380 INFO: microblog startup [in D:\blog\app\__init__.py:44]

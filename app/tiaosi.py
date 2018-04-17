@@ -8,12 +8,14 @@ app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///D:/blog/app/app.db'
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN']=True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db=SQLAlchemy(app)
-# class User(db.Model):
-#     __tablename__='users'
-#     id=db.Column(db.Integer,primary_key=True)
-#     nickname=db.Column(db.String(64),unique=True,index=True)
-#     email=db.Column(db.String(120),unique=True,index=True)
-#     role=db.Column(db.String(20),unique=True,index=True)
+class User(db.Model):
+    __tablename__='user'
+    id=db.Column(db.Integer,primary_key=True)
+    nickname=db.Column(db.String(64),unique=True,index=True)
+    email=db.Column(db.String(120),unique=True,index=True)
+    def __repr__(self):
+        return '<User %r>' % (self.nickname)
+
 
 # class User(db.Model):
 #     __tablename__='posts'
@@ -42,11 +44,11 @@ db=SQLAlchemy(app)
 #     follow_id=db.Column(db.Integer,primary_key=True)
 #     followed_id = db.Column(db.Integer,index=True)
 #
-# db.create_all()
+db.create_all()
 
 
-from models import Post
-from app import db
-for post in Post.query.all():
-    db.session.delete(post)
-db.session.commit()
+# from models import Post
+# from app import db
+# for post in Post.query.all():
+#     db.session.delete(post)
+# db.session.commit()

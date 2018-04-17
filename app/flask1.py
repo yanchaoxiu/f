@@ -89,7 +89,7 @@
 # print app.view_functions
 # app.run(debug=True)
 
-
+#
 # #coding:utf-8
 # def init_static_folder(app):
 #     import os
@@ -151,7 +151,7 @@
 #     pass
 # app.run(debug=True)
 
-# #coding:utf-8
+
 # from flask import Flask,url_for
 # app = Flask(__name__)
 # @app.route('/')
@@ -174,7 +174,7 @@
 #     pass
 # app.run(debug=True)
 
-
+#
 # #coding:utf-8
 # from flask import Flask,url_for
 # app = Flask(__name__)
@@ -446,7 +446,7 @@
 # app.run(debug=True)
 
 
-# # coding:utf-8
+
 # from flask import Flask,render_template_string
 # app=Flask(__name__)
 # @app.route('/user/<uname>')
@@ -455,7 +455,7 @@
 # app.run(debug=True)
 
 
-# # coding:utf-8
+
 # from flask import Flask,render_template
 # app=Flask(__name__)
 # @app.route('/user/<username>')
@@ -560,6 +560,21 @@
 
 # from flask import Flask,render_template_string
 # app=Flask(__name__)
+# tpl='''
+#     {% filter escape | upper %}
+# Filter sections allow you to apply regular Jinja2 filters on a block
+# of template data. Just wrap the code in the special filter section
+#
+# {% endfilter %}
+#     '''
+# @app.route('/')
+# def v_index():
+#     return render_template_string(tpl)
+# app.run(debug=True)
+
+
+# from flask import Flask,render_template_string
+# app=Flask(__name__)
 # user={'id':123,'nickname':'haha<script>alert("xss'
 #                           'vulnerable!")</script>'}
 # tpl='</h1>homepage of {{nickname}}</h1>'
@@ -600,7 +615,7 @@
 
 # from flask import Flask,render_template_string
 # app=Flask(__name__)
-# user={'id':123,'nickname':'<IAMKING1>'}
+# user={'id':222,'nickname':'<IAMKING1>'}
 # tpl='''
 # {% autoescape true %}
 # <h1>homepage of <a href="/user/{{id | safe}}">
@@ -810,21 +825,23 @@
 # app.run(debug=True)
 
 
+# from flask import Flask,flash,redirect,render_template
 # from app import app
+# app=Flask(__name__)
 # @app.route('/')
 # @app.route('/index')
 # def index():
-#     user={'nickname':'Miguel'}
+#     user = { 'nickname': 'Miguel' } # fake user
 #     return '''
-#     <html>
-#     <head>
-#     <title>home page</title>
-#     </head>
-#     <body>
-#     <h1>hello,'''+user['nickname']+'''</h1>
-#     </body>
-#     </html>
-#     '''
+# <html>
+#   <head>
+#     <title>Home Page</title>
+#   </head>
+#   <body>
+#     <h1>Hello, ''' + user['nickname'] + '''</h1>
+#   </body>
+# </html>
+# '''
 # app.run(debug=True)
 
 # from flask import Flask,flash,redirect,render_template
@@ -845,22 +862,45 @@
 
 
 
-from app import db
-import models
+# from app import db
+# from app import models
 # db.create_all()
 # u=models.User(nickname='john',email='john@email.com')
 # db.session.add(u)
 # db.session.commit()
-u=models.User(nickname='susan',email='susan@email.com')
-db.session.add(u)
-db.session.commit()
+# u=models.User(nickname='susan',email='susan@email.com')
+# db.session.add(u)
+# db.session.commit()
 # users=models.User.query.all()
 # print users
 # for u in users:
 #     print u.id,u.nickname
 
+
+# from app.models import Post
+# from app import db
+# for post in Post.query.all():
+#     db.session.delete(post)
+#     db.session.commit()
+
 # u=models.User.query.get(1)
 # print u
+
+# from app.models import User, Post
+# from app import db
+# import datetime
+# u = User.query.get(1)
+# p = Post(body='my first post', timestamp=datetime.datetime.utcnow(), author=u)
+# db.session.add(p)
+# p = Post(body='my second post', timestamp=datetime.datetime.utcnow(), author=u)
+# db.session.add(p)
+# p = Post(body='my third and last post', timestamp=datetime.datetime.utcnow(), author=u)
+# db.session.add(p)
+# db.session.commit()
+#
+# Post.query.whoosh_search('post').all()
+# Post.query.whoosh_search('second').all()
+# Post.query.whoosh_search('second OR last').all()
 
 
 # from app import db
@@ -898,3 +938,11 @@ db.session.commit()
 # db.session.commit()
 
 
+from flask_mail import Message
+from app import app, mail
+from config import ADMINS
+msg = Message('test subject', sender = ADMINS[0], recipients = ADMINS)
+msg.body = 'text body'
+msg.html = '<b>HTML</b> body'
+with app.app_context():
+    mail.send(msg)
