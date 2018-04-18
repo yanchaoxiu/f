@@ -74,6 +74,10 @@ from .models import User,Post
 from flask_login import login_user, logout_user, current_user, login_required
 from datetime import datetime
 from config import POSTS_PER_PAGE,MAX_SEARCH_RESULTS
+from emails import follower_notification
+from app import babel
+from config import LANGUAGES
+
 
 @lm.user_loader
 def load_user(id):
@@ -204,6 +208,7 @@ def follow(nickname):
     db.session.add(u)
     db.session.commit()
     flash('You are now following ' + nickname + '!')
+    follower_notification(user, g.user)
     return redirect(url_for('user', nickname=nickname))
 
 @app.route('/unfollow/<nickname>')
@@ -240,16 +245,11 @@ def search_results(query):
         query = query,
         results = results)
 
+@babel.localeselector
+def get_locale():
+    return request.accept_languages.best_match(LANGUAGES.keys())
 
-from emails import follower_notification
 
-@app.route('/follow/<nickname>')
-@login_required
-def follow(nickname):
-    user = User.query.filter_by(nickname = nickname).first()
-    # ...
-    follower_notification(user, g.user)
-    return redirect(url_for('user', nickname = nickname))
 
 # from flask import render_template,flash,redirect,session,url_for,request,g,Flask,render_template
 # from flask_login import logout_user,login_user,current_user,login_required

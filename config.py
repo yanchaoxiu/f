@@ -18,17 +18,16 @@ basedir=os.path.abspath(os.path.dirname(__file__))
 SQLALCHEMY_DATABASE_URI='sqlite:///'+os.path.join(basedir,'app.db')
 SQLALCHEMY_MIGRATE_REPO=os.path.join(basedir,'db_repository')
 
-
 # email server
-MAIL_SERVER = 'smtp.163.com'
-MAIL_PORT = 0
+MAIL_SERVER = 'smtp.qq.com'
+MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
-MAIL_USERNAME = os.environ.get('yanchaoxiu@163.com')
-MAIL_PASSWORD = os.environ.get('123qwe')
+MAIL_USERNAME = '1822107818@qq.com'
+MAIL_PASSWORD = 'wzoaohvxgfsjfdfj'
 
 # administrator list
-ADMINS = ['yanchaoxiu@163.com']
+ADMINS = ['1822107818@qq.com']
 
 # pagination
 POSTS_PER_PAGE = 3
@@ -36,5 +35,11 @@ POSTS_PER_PAGE = 3
 WHOOSH_BASE = os.path.join(basedir, 'search.db')
 
 MAX_SEARCH_RESULTS=50
+
+# available languages
+LANGUAGES = {
+    'en': 'English',
+    'es': 'Español'
+}
 
 

@@ -7,6 +7,7 @@
         {% endif %}
     </head>
     <body>
+        <script src="/static/js/moment.min.js"></script>
         <div>Microblog:
         <a href="{{ url_for('index') }}">Home</a>
         {% if g.user.is_authenticated %}
