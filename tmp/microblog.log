@@ -985,3 +985,99 @@ AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
 2018-04-18 15:58:39,977 INFO: microblog startup [in D:\blog\app\__init__.py:47]
 2018-04-18 16:23:38,319 INFO: microblog startup [in D:\blog\app\__init__.py:47]
 2018-04-18 17:01:25,993 INFO: microblog startup [in D:\blog\app\__init__.py:46]
+2018-04-19 13:54:28,845 INFO: microblog startup [in D:\blog\app\__init__.py:48]
+2018-04-19 16:18:25,881 INFO: microblog startup [in D:\blog\app\__init__.py:48]
+2018-04-20 09:33:13,056 INFO: microblog startup [in D:\blog\app\__init__.py:54]
+2018-04-20 09:51:06,252 INFO: microblog startup [in D:\blog\app\__init__.py:54]
+2018-04-20 09:51:08,655 ERROR: Exception on / [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 93, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-20 09:51:14,061 ERROR: Exception on /favicon.ico [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 93, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-20 09:51:19,161 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 93, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-20 09:51:24,354 ERROR: Exception on /favicon.ico [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 93, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-20 09:51:36,114 ERROR: Exception on /login [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 93, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-20 09:51:41,237 ERROR: Exception on /favicon.ico [GET] [in C:\Python27\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1610, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1831, in preprocess_request
+    rv = func()
+  File "D:\blog\app\views.py", line 93, in before_request
+    if g.user.is_authenticated():
+TypeError: 'bool' object is not callable
+2018-04-20 09:52:11,687 INFO: microblog startup [in D:\blog\app\__init__.py:54]
+2018-04-20 10:15:36,043 INFO: microblog startup [in D:\blog\app\__init__.py:54]

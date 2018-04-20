@@ -12,6 +12,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=True
 
 from app import db
 import os
+import re
 
 sep = os.sep
 followers = db.Table('followers',
@@ -85,6 +86,9 @@ class User(db.Model):
         return Post.query.join(followers, (followers.c.followed_id == Post.user_id)).filter(
             followers.c.follower_id == self.id).order_by(Post.timestamp.desc())
 
+    def make_valid_nickname(nickname):
+        return re.sub('[^a-zA-Z0-9_\.]', '', nickname)
+
 
 
 import sys
@@ -97,10 +101,11 @@ else:
 class Post(db.Model):
     __searchable__ = ['body']
 
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key = True)
     body = db.Column(db.String(140))
     timestamp = db.Column(db.DateTime)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    language = db.Column(db.String(5))
 
     def __repr__(self):
         return '<Post %r>' % (self.body)
@@ -163,11 +168,6 @@ if enable_search:
 #     return new_nickname
 #
 #
-# from app import db
-# followers = db.Table('followers',
-#                      db.Column('follower_id', db.Integer, db.ForeignKey('user.id')),
-#                      db.Column('followed_id', db.Integer, db.ForeignKey('user.id'))
-#                      )
 # class User(db.Model):
 #     id = db.Column(db.Integer, primary_key = True)
 #     nickname = db.Column(db.String(64), unique = True)
